@@ -4,7 +4,7 @@ class SmoothiesController < ApplicationController
   # GET /smoothies
   def index
     @smoothies = Smoothie.all
-
+#  will it take the push!
     render json: @smoothies
   end
 
