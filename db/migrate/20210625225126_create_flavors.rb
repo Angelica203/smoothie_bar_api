@@ -3,7 +3,6 @@ class CreateFlavors < ActiveRecord::Migration[6.1]
     create_table :flavors do |t|
       t.string :name
       t.string :ingredient
-      t.string :image
       t.integer :smoothie_id
 
       t.timestamps
