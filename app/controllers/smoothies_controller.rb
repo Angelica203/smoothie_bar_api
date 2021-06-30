@@ -1,5 +1,5 @@
 class SmoothiesController < ApplicationController
-  before_action :set_smoothy, only: [:show, :update, :destroy]
+  # before_action :set_smoothy, only: [:show, :update, :destroy]
 
   # GET /smoothies
   def index
@@ -8,10 +8,10 @@ class SmoothiesController < ApplicationController
     render json: smoothies
   end
 
-  # GET /smoothies/1
-  def show
-    render json: smoothy
-  end
+  # # GET /smoothies/1
+  # def show
+  #   render json: smoothie
+  # end
 
   # POST /smoothies
   def create
